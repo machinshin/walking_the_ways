@@ -1,11 +1,12 @@
 {
   "name": "walking_the_ways",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc -w  "
+    "watch": "tsc -w  ",
+    "run": "tsc "
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@types/node": "^12.12.31",
+    "xterm": "^4.4.0",
     "chalk": "^3.0.0",
     "true-html-escape": "^1.0.0"
   }
